@@ -12,15 +12,21 @@
     </nav>
     <main>
         <h2>Vacation Contest Sign-Up Form</h2>
-        
-        <form> <!-- TODO: Set Action and Method Properties -->
+
+        <form method="GET" action="results.html"> <!-- TODO: Set Action and Method Properties. Done. -->
             <div>
                 <label for="firstname">Your First Name</label>
                 <input type="text" id="firstname" name="firstname">
                 <!-- TODO: Create a "lastname" input with type "text" -->
+                <label for="lastname">Your Last Name</label>
+                <input type="text" id="lastname" name="lastname">               
             </div>
             <!-- TODO: Make fieldset and legend -->
+            <fieldset>
+                <legend>Your Contact Info</legend>
             <!-- Todo: Email Input -->
+                <label for="email">Your Email</label>
+                <input type="text" id="email" name="email">
             <!-- Todo: Street Address Input -->
             <!-- Todo: City, State, and Zip Inputs -->
 
@@ -28,7 +34,7 @@
             <!-- TODO: Radio buttons for selecting preferred destination -->
             <!-- TODO: Color input for selecting favorite color -->
             <!-- TODO: Checkboxes for selecting extra add-ons -->
-            
+            </fieldset>
             <!-- TODO: Submit Button -->
         </form>
     </main>
